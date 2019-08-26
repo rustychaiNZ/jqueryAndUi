@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Jquery UI Practice</title>
+	<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.min.css"> -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+
+		<div class="container">
+			<h1 id="heading">Jquery - UI</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni est culpa explicabo cupiditate nostrum cum consectetur esse, nobis odio unde adipisci, voluptatem assumenda consequuntur dicta, quis eveniet obcaecati tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab nisi placeat et laborum quisquam. Ullam facere fugit totam neque porro ratione eum eaque veritatis, rerum sed enim, aperiam maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro accusamus deleniti nobis? Dolores sit quos rem corporis nisi natus ipsam laborum, laboriosam, culpa placeat numquam est quas adipisci ad, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laudantium reprehenderit cumque odit pariatur esse dolorem debitis necessitatibus! Quasi maiores obcaecati amet ab eveniet qui nisi corrupti cupiditate magnam deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, adipisci, sint! Nisi aspernatur asperiores odit sint. Iste omnis porro quos corporis rerum, eaque eius excepturi! Molestiae facere suscipit unde maxime.</p>
+		</div>
+
+		<div class="subContainer" id="subHeading">
+			<h3 class="subHeading">Hello</h3>
+		</div>
+		
+		<div class="dubContainer">
+			<div id="resizable" class="ui-widget-content">
+  				<h3 class="ui-widget-header">Resizable</h3>
+			</div>
+		</div>
+
+			<ol id="selectable">
+  				<li class="ui-widget-content border">Item 1</li>
+  				<li class="ui-widget-content border">Item 2</li>
+  				<li class="ui-widget-content border">Item 3</li>
+  				<li class="ui-widget-content border">Item 4</li>
+  				<li class="ui-widget-content border">Item 5</li>
+  				<li class="ui-widget-content border">Item 6</li>
+  				<li class="ui-widget-content border">Item 7</li>
+			</ol>
+
+			<br>
+			<ul id="sortable">
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Burger</li>
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Pizza</li>
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Fries</li>
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Milk Shake</li>
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Soft Drink</li>
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Juice</li>
+  				<li class="ui-state-default border"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Smoothie</li>
+			</ul>
+
+			<div class="section">
+				<div class="lights">
+					<img src="images/bulbOff.jpg" id="bulbOff" width="25%" alt="bulb off">
+					<img src="images/bulbOn.jpg" id="bulbOn" width="25%" alt="Bulb on">
+					<br>
+					<img src="images/lightSwitchOff.jpg" id="lightSwitchOff" width="25%" alt="light switch off">
+					<img src="images/lightSwitchOn.jpg" id="lightSwitchOn" width="25%" alt="light switch on">					
+				</div>
+			</div>
+	
+	
+
+		<!-- Jquery goes first in this set -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<!-- Jquery UI is dependent on jquery, so it goes next -->
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<!-- Our script file must be the last one in this set. This way our scritps take presidents over the other libaries -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
