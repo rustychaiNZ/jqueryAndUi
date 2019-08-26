@@ -43,4 +43,10 @@ $(document).ready(function(){
   		$('#lightSwitchOn').hide();
   	})
 
+  	$( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+
 });
